@@ -1,0 +1,22 @@
+.box1{
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(42, 165, 104);
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
+
+/* positions type:absolute,relative,fixed */

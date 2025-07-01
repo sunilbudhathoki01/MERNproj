@@ -1,0 +1,100 @@
+.info{
+    /* color properties */
+    color: rgb(25, 100, 30);
+    
+    /* text properties (text properties only work with block elements)*/
+    text-align: center;
+    text-shadow: 2px,4px,6px,black;
+    /* font */
+    font-size: 100px;
+    font-family: monospace;
+    font-style: oblique;
+   
+
+}
+.info{
+     margin: 20px;
+    border: 5px;
+    padding: 5px;
+    content: 20px;
+}
+.para{
+    text-transform: uppercase;
+    text-decoration: underline;
+    word-spacing: 20px;
+    font-weight: bold;
+      margin: 20px;
+    border: 5px;
+    padding: 5px;
+    content: 20px;
+}
+/* display */
+.label{
+    color: blue;
+    
+}
+.list{
+    height: 30px;
+}
+.list div :first-child{
+    height: 1rem;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: not-allowed;
+    box-shadow: 20px,20px,2ppx,20px grey;
+}
+.box div:first-child{
+    color: blue;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0.4;
+    
+}
+/* table */
+
+/* pseudo/fake */
+.list:hover{
+      list-style-type:none;
+    cursor: pointer;
+    background-color: blueviolet;
+    
+}
+.list li:last-child{
+    color: green;
+}
+
+.list li:nth-child(2){
+    color: pink;
+}
+
+.lorem{
+    background-color: aqua;
+    margin: 5px ;
+    padding: 10px;
+    border: 5px;
+    content: 50px;
+ overflow:scroll;
+}
+.studenttable {
+     border-collapse: collapse;
+            width: 70%;
+            margin: 20px auto;
+}
+.studenttable td{
+    padding: 0.5rem;
+}
+th{
+    background-color: brown;
+    text-align: left;
+}
+.studenttable tbody tr:nth-child(2n) td{
+    background-color: violet;
+}
+/* css selector lida space rakhyo vane vitra vitra janxa */
+/*eg:table tbody tr
+table paxadi ko space le tyo vitra ko vanna khojeko ho
+thats why space haru ko khyal rakhnu*/
